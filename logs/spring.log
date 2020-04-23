@@ -5057,3 +5057,31 @@ Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo can
 2020-04-22 17:49:29.705  INFO 19104 --- [RMI TCP Connection(135)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2020-04-22 17:49:29.735  INFO 19104 --- [RMI TCP Connection(135)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-7 - Shutdown initiated...
 2020-04-22 17:49:29.748  INFO 19104 --- [RMI TCP Connection(135)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-7 - Shutdown completed.
+2020-04-23 16:18:29.103  INFO 5032 --- [main] c.c.M.r.AccountRepositoryTest            : Starting AccountRepositoryTest on mina with PID 5032 (started by mina in C:\java\MySpringBoot)
+2020-04-23 16:18:29.141 DEBUG 5032 --- [main] c.c.M.r.AccountRepositoryTest            : Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.12.RELEASE
+2020-04-23 16:18:29.141  INFO 5032 --- [main] c.c.M.r.AccountRepositoryTest            : The following profiles are active: test
+2020-04-23 16:18:31.409  INFO 5032 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-23 16:18:31.543  INFO 5032 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116ms. Found 1 JPA repository interfaces.
+2020-04-23 16:18:32.550  INFO 5032 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e6f35c7a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-23 16:18:33.169  INFO 5032 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2020-04-23 16:18:33.483  INFO 5032 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2020-04-23 16:18:33.769  INFO 5032 --- [main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-04-23 16:18:34.358  INFO 5032 --- [main] o.h.Version                              : HHH000412: Hibernate Core {5.3.15.Final}
+2020-04-23 16:18:34.372  INFO 5032 --- [main] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2020-04-23 16:18:34.859  INFO 5032 --- [main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-04-23 16:18:38.061  INFO 5032 --- [main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-23 16:18:42.171  INFO 5032 --- [main] o.h.t.s.i.SchemaCreatorImpl              : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@19e2db7c'
+2020-04-23 16:18:42.197  INFO 5032 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-23 16:18:49.561  INFO 5032 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-23 16:18:49.710  WARN 5032 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-23 16:18:49.812  INFO 5032 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-04-23 16:18:50.684  INFO 5032 --- [main] c.c.M.r.AccountRepositoryTest            : Started AccountRepositoryTest in 22.907 seconds (JVM running for 26.409)
+2020-04-23 16:18:50.701 DEBUG 5032 --- [main] c.c.M.r.MyRunner                         : >>> Property Name : " + name
+2020-04-23 16:18:50.702  INFO 5032 --- [main] c.c.M.r.MyRunner                         : Source Arguments : []
+2020-04-23 16:18:50.989  INFO 5032 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-04-23 16:18:51.327  INFO 5032 --- [Thread-2] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-23 16:18:51.328  INFO 5032 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-23 16:18:51.335  INFO 5032 --- [Thread-2] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2020-04-23 16:18:51.346  INFO 5032 --- [Thread-2] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
